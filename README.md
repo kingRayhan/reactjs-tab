@@ -34,11 +34,12 @@ export default class App extends Component {
 
 Import default stylesheet
 
-```bash
+```jsx
 import 'reactjs-tab/tab.css'
 ```
 
 ![Reactjs Default style](default-style.png)
+
 [Preview](https://kingrayhan.github.io/reactjs-tab/)
 
 ## License
