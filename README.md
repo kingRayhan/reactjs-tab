@@ -12,19 +12,6 @@ npm install --save reactjs-tab
 
 ## Usage
 
-```jsx
-import React, { Component } from 'react'
-
-import MyComponent from 'reactjs-tab'
-
-class Example extends Component {
-  render () {
-    return (
-      <MyComponent />
-    )
-  }
-}
-```
 
 ## License
 
