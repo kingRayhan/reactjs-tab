@@ -4,15 +4,13 @@
 
 [![NPM](https://img.shields.io/npm/v/reactjs-tab.svg)](https://www.npmjs.com/package/reactjs-tab) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-## Install
+### Install
 
 ```bash
 npm install --save reactjs-tab
 ```
 
-> Style is not included at this version
-
-## Usage
+### Usage
 
 ```jsx
 import React, { Component } from 'react'
@@ -31,6 +29,16 @@ export default class App extends Component {
   }
 }
 ```
+
+## Default Style
+
+Import default stylesheet
+
+```bash
+import 'reactjs-tab/tab.css'
+```
+
+![Reactjs Default style](default-style.png)
 
 ## License
 

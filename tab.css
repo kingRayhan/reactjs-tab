@@ -1,0 +1,28 @@
+.reactjs-tab {
+  background: #fff;
+  border-top: 0;
+}
+
+.tab-btn-navs {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  border-bottom: 1px solid #ddd;
+}
+
+.tab-btn {
+  border-radius: 5px 5px 0px 0px;
+  padding: 5px 10px;
+  border-bottom: 0;
+  cursor: pointer;
+}
+
+.tab-btn.active {
+  border: 1px solid #ddd;
+  border-radius: 5px 5px 0px 0px;
+  border-bottom: 0;
+  padding-bottom: 1px;
+  background: #fff;
+  margin-bottom: -1px;
+}

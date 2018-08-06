@@ -26,21 +26,21 @@ class Tabs extends Component {
     const { tabIndex } = this.state
     const tabButtons = this.props.children.map(
       ({ props: { name: tab, children: tabContent } }, i) => (
-        <div
+        <li
           className={`tab-btn ${i === tabIndex ? `active` : ''}`}
           onClick={() => this.setState({ tabContent, tabIndex: i })}
           key={i}
         >
           {tab}
-        </div>
+        </li>
       )
     )
 
     return (
-      <Fragment>
-        {tabButtons}
+      <div className="reactjs-tab">
+        <ul className="tab-btn-navs">{tabButtons}</ul>
         <div className="tab-content">{this.state.tabContent}</div>
-      </Fragment>
+      </div>
     )
   }
 }
