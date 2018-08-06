@@ -10,6 +10,8 @@
 npm install --save reactjs-tab
 ```
 
+> Style is not included at this version
+
 ## Usage
 
 ```jsx
