@@ -12,6 +12,8 @@ export default class App extends Component {
           margin: 'auto',
           padding: 15,
           backgroundColor: '#FFF',
+          boxShadow: `0 2px 2px rgba(0,0,0,.2)`,
+          marginTop: 45,
         }}
       >
         <Tabs>
