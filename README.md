@@ -40,7 +40,7 @@ import 'reactjs-tab/tab.css'
 
 ![Reactjs Default style](default-style.png)
 
-[Preview](https://kingrayhan.github.io/reactjs-tab/)
+## [Live Demo](https://kingrayhan.github.io/reactjs-tab/)
 
 ## License
 
